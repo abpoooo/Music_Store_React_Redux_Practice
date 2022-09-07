@@ -1,0 +1,44 @@
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.songList {
+  border: 1px grey solid;
+  padding: 15px;
+  width: 33%;
+  min-width: 460px;
+  max-width: 960px;
+}
+.songList .list {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+.songList .list .listRow {
+  margin: 2px;
+}
+
+.title {
+  color: rgb(26, 210, 251);
+  font-size: 16px;
+  font-family: Ember, Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.icon {
+  display: inline-block;
+  padding: 2px;
+  width: 24px;
+  height: 24px;
+}
+.icon:active {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=List.css.map */
